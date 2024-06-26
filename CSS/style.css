@@ -1,0 +1,6801 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 4000px;
+    
+    
+}
+
+
+            /* MENU */
+
+.menu{
+    background-color: rgb(11, 11, 11);
+    color: white;
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    position: absolute;
+    height: 120px;
+    
+
+}
+
+
+
+img{
+    
+    margin-left: 150px;
+    margin-top: 0px;
+    width: 280px;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+}
+
+
+li{ font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    list-style-type: none;
+    
+    
+}
+
+a{  color: white;
+    text-decoration: none;
+}
+
+
+
+
+        /* SEÇÂO 1  INICIO */
+
+.sec{
+   
+    
+    background-image: url(../IMG/treino.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    color: aliceblue;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 350px;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mini-txt-inicio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+
+.texto-home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 300px;
+    text-align: justify;
+    width: 400px;
+    line-height: 30px;
+    
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+
+}
+
+.gradiente {
+    font-weight: bold;
+    background:linear-gradient(#ea8800, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+            /* SEÇÂO 2  SERVIÇOS*/
+
+.titulo-servicos{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-servicos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 600px;
+    text-align: justify;
+    width: 600px;
+    line-height: 30px;
+}
+.sec2{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+   
+}
+.sec2 img{
+    z-index: 10;
+    position: absolute ;
+    
+}
+
+.ico{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 600px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico2{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 750px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico3{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 900px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico img{
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -95px;
+}
+
+.ico2 img{
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -95px;
+}
+
+.ico3 img{
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+.texto-servicos-pequeno{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    align-self: flex-end;
+    margin-left: 330px;
+    text-align: center;
+}
+
+
+
+
+
+
+             /* SEÇÂO 3 CUSTOS */
+
+.sec3{
+    background-image: url(../IMG/custtoss.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+.sec3 img{
+    z-index: 12;
+    width: 900px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.titulo-custos{
+
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2{
+    margin-left: 280px;
+    margin-top: 90px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-custos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+
+
+            /* SEÇÂO 4 SOBRE */
+
+.sec4{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+.sec4 img{
+    margin-left: 120px;
+    margin-top: 110px;
+    width: 100px;
+    height: auto;
+}
+
+.titulo-sobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+}
+
+.texto2-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 220px;
+    text-align: justify;
+    width: 900px;
+    line-height: 28px;
+}
+
+.titulo2-sobre{
+    margin-left: 280px;
+    margin-top: 50px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem-personalizacao img{
+    width: 100px;
+    height: auto;
+    z-index: 40;
+    margin-left: 110px;
+    margin-top: -120px;
+}
+.icon-interface img{
+    width: 150px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+
+
+
+            /* SEÇÂO 5 CONTATO  */
+
+
+.sec5{
+                background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: aliceblue;
+                width: 100%;
+                height: 800px;
+}
+            
+.sec5 img{
+                width: 100px;
+                margin-top: 90px;
+                margin-left: 300px;
+}
+            
+.titulo-contato{
+    margin-top: 200px;
+    
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2-contato{
+    margin-left: 280px;
+    margin-top: 230px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo2-contato-email{
+    margin-left: 725px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    margin-left: 410px;
+    margin-top: -310px;
+    width: 110px;
+}
+
+.texto3-email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 655px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.insta{
+    margin-left: 800px;
+    margin-top: -325px;
+}
+
+
+.titulo2-contato-insta{
+    margin-left: 1100px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto3-insta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 1090px;
+    text-align: justify;
+    width: 110px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.texto3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 270px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+    color: aliceblue;
+}
+ 
+
+
+
+
+        /* RODAPÉ  */
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #e46e00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1650px) {
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 4000px;
+    
+    
+}
+
+
+            /* MENU */
+
+.menu{
+    background-color: rgb(11, 11, 11);
+    color: white;
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    position: absolute;
+    height: 120px;
+    
+
+}
+
+
+
+img{
+    
+    margin-left: 150px;
+    margin-top: -60px;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+
+li{ font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    list-style-type: none;
+    
+    
+}
+
+a{  color: white;
+    text-decoration: none;
+}
+
+
+
+
+        /* SEÇÂO 1  INICIO */
+
+.sec{
+   
+    
+    background-image: url(../IMG/treino.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    color: aliceblue;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 300px;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mini-txt-inicio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+.texto-home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: justify;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+
+}
+
+.gradiente {
+    font-weight: bold;
+    background:linear-gradient(#ea8800, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+            /* SEÇÂO 2  SERVIÇOS*/
+
+.titulo-servicos{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-servicos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 600px;
+    text-align: justify;
+    width: 800px;
+    line-height: 40px;
+}
+.sec2{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+   
+}
+.sec2 img{
+    z-index: 10;
+    position:absolute;
+    
+}
+
+.ico{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 600px;
+    margin-top: 40px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico2{ font-size: large;
+    width: 150px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 750px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico3{ 
+    width: 170px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    font-size: large;
+    z-index: 11;
+    margin-left: 900px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico img{
+    width: 350px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -115px;
+}
+
+.ico2 img{
+    width: 350px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -115px;
+}
+
+.ico3 img{
+    width: 90px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+
+.texto-servicos-pequeno{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    align-self: flex-end;
+    margin-left: 330px;
+    text-align: center;
+}
+
+
+
+
+
+
+             /* SEÇÂO 3 CUSTOS */
+
+.sec3{
+    background-image: url(../IMG/custtoss.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+
+
+.titulo-custos{
+
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2{
+    margin-left: 280px;
+    margin-top: 90px;
+    color: rgb(234, 136, 0);
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-custos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 1000px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+
+
+
+
+            /* SEÇÂO 4 SOBRE */
+
+.sec4{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+.sec4 img{
+    margin-left: 120px;
+    margin-top: 110px;
+    width: 100px;
+    height: auto;
+}
+
+.titulo-sobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    line-height: 30px;
+}
+
+.texto2-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    line-height: 28px;
+    margin-left: 300px;
+}
+
+.titulo2-sobre{
+    margin-left: 280px;
+    margin-top: 50px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem-personalizacao img{
+    width: 100px;
+    height: auto;
+    z-index: 40;
+    margin-left: 110px;
+    margin-top: -120px;
+}
+.icon-interface img{
+    width: 150px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+
+
+
+            /* SEÇÂO 5 CONTATO  */
+
+
+.sec5{
+                background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: aliceblue;
+                width: 100%;
+                height: 800px;
+}
+            
+.sec5 img{
+                width: 100px;
+                margin-top: 90px;
+                margin-left: 300px;
+}
+            
+.titulo-contato{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2-contato{
+    margin-left: 280px;
+    margin-top: 230px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo2-contato-email{
+    margin-left: 725px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    margin-left: 410px;
+    margin-top: -310px;
+    width: 110px;
+}
+
+.texto3-email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 655px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.insta{
+    margin-left: 800px;
+    margin-top: -325px;
+}
+
+
+.titulo2-contato-insta{
+    margin-left: 1100px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto3-insta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 1090px;
+    text-align: justify;
+    width: 110px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.texto3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 270px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+    color: aliceblue;
+}
+ 
+
+
+
+
+        /* RODAPÉ  */
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #e46e00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.rodape{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    
+}
+
+}
+
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) { 
+
+    
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 4000px;
+    
+    
+}
+
+
+            /* MENU */
+
+.menu{
+    background-color: rgb(11, 11, 11);
+    color: white;
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    height: 120px;
+    
+
+}
+
+
+
+img{
+    
+    margin-left: 150px;
+    margin-top: -80px;
+    width: 280px;
+    height: auto;
+    position: absolute;
+}
+
+
+li{ font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    list-style-type: none;
+    
+    
+}
+
+a{  color: white;
+    text-decoration: none;
+}
+
+
+
+
+        /* SEÇÂO 1  INICIO */
+
+.sec{
+    
+    background-image: url(../IMG/treino.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    color: aliceblue;
+}
+
+.titulo{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mini-txt-inicio{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.texto-home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: justify;
+    width: 1000px;
+    line-height: 30px;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+
+}
+
+.gradiente {
+    font-weight: bold;
+    background:linear-gradient(#ea8800, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+            /* SEÇÂO 2  SERVIÇOS*/
+
+.titulo-servicos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-servicos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 600px;
+    text-align: justify;
+    width: 600px;
+    line-height: 30px;
+}
+.sec2{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+   
+}
+.sec2 img{
+    z-index: 10;
+    
+}
+
+.ico{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 600px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico2{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 750px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico3{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 900px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico img{
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -95px;
+}
+
+.ico2 img{
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -95px;
+}
+
+.ico3 img{
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+.texto-servicos-pequeno{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    align-self: flex-end;
+    margin-left: 330px;
+    text-align: center;
+}
+
+
+
+
+
+
+             /* SEÇÂO 3 CUSTOS */
+
+.sec3{
+    background-image: url(../IMG/custtoss.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+.sec3 img{
+    z-index: 12;
+    width: 900px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.titulo-custos{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2{
+    margin-left: 280px;
+    margin-top: 90px;
+    color: rgb(234, 136, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-custos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+
+
+            /* SEÇÂO 4 SOBRE */
+
+.sec4{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+.sec4 img{
+    margin-left: 120px;
+    margin-top: 110px;
+    width: 100px;
+    height: auto;
+}
+
+.titulo-sobre{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+}
+.texto2-sobre{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 270px;
+    text-align: justify;
+    width: 900px;
+    line-height: 28px;
+}
+
+.titulo2-sobre{
+    margin-left: 280px;
+    margin-top: 50px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem-personalizacao img{
+    width: 100px;
+    height: auto;
+    z-index: 40;
+    margin-left: 110px;
+    margin-top: -120px;
+}
+.icon-interface img{
+    width: 150px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+            /* SEÇÂO 5 CONTATO  */
+
+
+.sec5{
+                background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: aliceblue;
+                width: 100%;
+                height: 800px;
+}
+            
+.sec5 img{
+                width: 100px;
+                margin-top: 90px;
+                margin-left: 300px;
+}
+            
+.titulo-contato{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2-contato{
+    margin-left: 300px;
+    margin-top: 230px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo2-contato-email{
+    display: flex;
+    justify-self: center;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    margin-left: 410px;
+    margin-top: -310px;
+    width: 110px;
+}
+
+.texto3-email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 655px;
+    text-align: justify;
+    width: 300px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.insta{
+    margin-left: 800px;
+    margin-top: -325px;
+}
+
+
+.titulo2-contato-insta{
+    margin-left: 1100px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto3-insta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 1090px;
+    text-align: justify;
+    width: 110px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.texto3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 270px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+    color: aliceblue;
+}
+ 
+
+
+
+
+        /* RODAPÉ  */
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #e46e00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    
+}
+
+    
+    
+    }
+    
+
+
+
+
+
+    
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) { 
+
+ 
+    
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 4000px;
+    
+    
+}
+
+
+            /* MENU */
+
+.menu{
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100% ;
+    height: 120px;
+    
+
+}
+
+
+
+img{
+    
+    margin-left: 50px;
+    margin-top: -40px;
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+
+li{ font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    list-style-type: none;
+    
+    
+}
+
+a{  color: white;
+    text-decoration: none;
+}
+
+
+
+
+        /* SEÇÂO 1  INICIO */
+
+.sec{
+    
+    background-image: url(../IMG/treino.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    color: aliceblue;
+}
+
+.titulo{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 800px;
+    line-height: 30px;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+
+}
+
+.gradiente {
+    font-weight: bold;
+    background:linear-gradient(#ea8800, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+            /* SEÇÂO 2  SERVIÇOS*/
+.sec2{
+width: 100%;
+height: 800px;
+background-color: rgb(22, 22, 22);
+ color: aliceblue;
+               
+}
+
+.titulo-servicos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-servicos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 50px;
+    margin-left: 450px;
+    text-align: justify;
+    width: 600px;
+    line-height: 25px;
+}
+
+.sec2 img{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: -250px;
+    height: auto;
+    z-index: 10;
+    
+}
+
+.ico{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 450px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico2{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 650px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico3{ 
+    width: 120px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 900px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico img{
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -95px;
+}
+
+.ico2 img{
+    width: 300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -95px;
+}
+
+.ico3 img{
+    width: 80px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+.texto-servicos-pequeno{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    align-self: flex-end;
+    margin-left: 330px;
+    text-align: center;
+}
+
+
+
+
+
+
+             /* SEÇÂO 3 CUSTOS */
+
+
+
+.sec3 img{
+    z-index: 12;
+    width: 900px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.titulo-custos{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2{
+    margin-left: 170px;
+    margin-top: 90px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-custos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 180px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+
+
+            /* SEÇÂO 4 SOBRE */
+
+.sec4{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+.sec4 img{
+    margin-left: 120px;
+    margin-top: 110px;
+    width: 80px;
+    height: auto;
+}
+
+.titulo-sobre{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 850px;
+    
+    line-height: 28px;
+}
+
+.titulo2-sobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto2-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 850px;
+    line-height: 28px;
+}
+
+.imagem-personalizacao img{
+    width: 100px;
+    height: auto;
+    z-index: 40;
+    margin-left: 110px;
+    margin-top: -120px;
+}
+
+.icon-interface img{
+    width: 150px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+
+
+            /* SEÇÂO 5 CONTATO  */
+
+
+.sec5{
+                background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: aliceblue;
+                width: 100%;
+                height: 800px;
+}
+            
+.sec5 img{
+                width: 100px;
+                margin-top: 90px;
+                margin-left: 200px;
+}
+            
+.titulo-contato{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2-contato{
+    margin-left: 200px;
+    margin-top: 230px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo2-contato-email{
+    margin-left: 560px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    margin-left: 350px;
+    margin-top: -310px;
+    width: 110px;
+}
+
+.texto3-email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 490px;
+    text-align: justify;
+    width: 200px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.insta{
+    margin-left: 700px;
+    margin-top: -325px;
+}
+
+
+.titulo2-contato-insta{
+    margin-left: 900px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto3-insta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 890px;
+    text-align: justify;
+    width: 10px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.texto3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 170px;
+    text-align: justify;
+    width: 200px;
+    line-height: 30px;
+    color: aliceblue;
+}
+ 
+
+
+
+        /* RODAPÉ  */
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #e46e00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+ }
+
+
+
+
+
+
+ /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+
+
+
+@media only screen and (max-width:1100px){
+
+        
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 4000px;
+    
+    
+}
+
+
+            /* MENU */
+
+.menu{
+    justify-content: flex-end;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100% ;
+    height: 120px;
+    
+
+}
+
+
+
+img{
+    
+    margin-left: 50px;
+    margin-top: -40px;
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+
+li{ font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 150px;
+    list-style-type: none;
+    
+    
+}
+
+a{  color: white;
+    text-decoration: none;
+}
+
+
+
+
+        /* SEÇÂO 1  INICIO */
+
+.sec{
+    
+    background-image: url(../IMG/treino.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    color: aliceblue;
+}
+
+.titulo{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-home{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 800px;
+    line-height: 30px;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+    width: 900px;
+    line-height: 30px;
+
+}
+
+.gradiente {
+    font-weight: bold;
+    background:linear-gradient(#ea8800, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+            /* SEÇÂO 2  SERVIÇOS*/
+.sec2{
+width: 100%;
+height: 800px;
+background-color: rgb(22, 22, 22);
+ color: aliceblue;
+               
+}
+
+.titulo-servicos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-servicos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 50px;
+    margin-left: 380px;
+    text-align: justify;
+    width: 600px;
+    line-height: 25px;
+}
+
+.sec2 img{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: -250px;
+    height: auto;
+    z-index: 10;
+    
+}
+
+.ico{ 
+    width: 150px;
+    height: 120px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    z-index: 11;
+    margin-left: 400px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico2{ 
+    width: 150px;
+    height: 120px;
+    align-self: flex-end;
+    display: flex;
+    z-index: 11;
+    margin-left: 600px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico3{ 
+    
+    width: 150px;
+    height: 150px;
+    align-self: flex-end;
+    font-size: medium;
+    display: flex;
+    z-index: 11;
+    margin-left: 770px;
+    margin-top: -120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ico img{
+    width: 250px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -240px;
+}
+
+.ico2 img{
+    width: 250px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -60px;
+}
+
+.ico3 img{
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: aliceblue;
+}
+
+
+
+.texto-servicos-pequeno{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+             /* SEÇÂO 3 CUSTOS */
+
+
+
+.sec3 img{
+    z-index: 12;
+    width: 900px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.titulo-custos{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2{
+    margin-left: 170px;
+    margin-top: 90px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-custos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 800px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+
+
+            /* SEÇÂO 4 SOBRE */
+
+.sec4{
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+
+.sec4 img{
+    margin-left: 120px;
+    margin-top: 110px;
+    width: 75px;
+    height: auto;
+}
+
+.titulo-sobre{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texto-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 750px;
+    line-height: 28px;
+}
+
+.titulo2-sobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto2-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 750px;
+    line-height: 28px;
+}
+
+.imagem-personalizacao img{
+    width: 90px;
+    height: auto;
+    z-index: 40;
+    margin-left: 110px;
+    margin-top: -120px;
+}
+
+.icon-interface img{
+    width: 140px;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+
+
+            /* SEÇÂO 5 CONTATO  */
+
+
+.sec5{
+                background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: aliceblue;
+                width: 100%;
+                height: 800px;
+}
+            
+.sec5 img{
+                width: 100px;
+                margin-top: 90px;
+                margin-left: 170px;
+}
+            
+.titulo-contato{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-decoration:underline;
+    font-weight: bolder;
+    background:linear-gradient(#ea8800, rgb(255, 38, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo2-contato{
+    margin-left: 170px;
+    margin-top: 230px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo2-contato-email{
+    margin-left: 480px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    margin-left: 295px;
+    margin-top: -310px;
+    width: 110px;
+}
+
+.texto3-email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 410px;
+    text-align: justify;
+    width: 200px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.insta{
+    margin-left: 600px;
+    margin-top: -325px;
+}
+
+
+.titulo2-contato-insta{
+    margin-left: 765px;
+    margin-top: 250px;
+    color: rgb(234, 136, 0);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto3-insta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 755px;
+    text-align: justify;
+    width: 10px;
+    line-height: 30px;
+    color: aliceblue;
+}
+
+
+
+.texto3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 140px;
+    text-align: justify;
+    width: 200px;
+    line-height: 30px;
+    color: aliceblue;
+}
+ 
+
+
+
+        /* RODAPÉ  */
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #e46e00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    
+}
+
+}
+
+
+
+
+
+
+
+ /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 1000px) { 
+
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 4000px;
+       
+        
+    }
+    
+    
+                /* MENU */
+    
+    .menu{
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 120px;
+        
+    
+    }
+    
+    
+    
+    img{
+        
+        margin-left: 50px;
+        margin-top: -40px;
+        width: 200px;
+        height: auto;
+        position: absolute;
+    }
+    
+    
+    li{ font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        width: 100px;
+        list-style-type: none;
+        
+        
+    }
+    
+    a{  color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+            /* SEÇÂO 1  INICIO */
+    
+    .sec{
+        
+        background-image: url(../IMG/treino.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 790px;
+        line-height: 30px;
+    }
+    
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 800px;
+        line-height: 30px;
+    
+    }
+    
+    .gradiente {
+        font-weight: bold;
+        background:linear-gradient(#ea8800, red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    
+    
+    
+                /* SEÇÂO 2  SERVIÇOS*/
+    .sec2{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(22, 22, 22);
+     color: aliceblue;
+                   
+    }
+    
+    .titulo-servicos{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-servicos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 50px;
+        margin-left: 350px;
+        text-align: justify;
+        width: 570px;
+        line-height: 25px;
+    }
+    
+    .sec2 img{
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: -0px;
+        height: auto;
+        z-index: 10;
+        
+    }
+    
+    .ico{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 330px;
+        margin-top: 40px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico2{ 
+        width: 150px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 500px;
+        margin-top: -120px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico3{ 
+        width: 150px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 650px;
+        margin-top: -120px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico img{
+        width: 250px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .ico2 img{
+        width: 300px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: -95px;
+    }
+    
+    .ico3 img{
+        width: 70px;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    
+    .texto-servicos-pequeno{
+        margin-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-weight: lighter;
+        align-self: flex-end;
+        margin-left: 280px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+                 /* SEÇÂO 3 CUSTOS */
+    
+    
+    
+    .sec3 img{
+        z-index: 12;
+        width: 900px;
+        height: auto;
+        margin-left: 800px;
+        margin-top: -300px;
+    }
+    
+    .titulo-custos{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2{
+        margin-left: 170px;
+        margin-top: 90px;
+        color: rgb(234, 136, 0);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto-custos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 790px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    
+    
+    
+    
+                /* SEÇÂO 4 SOBRE */
+    
+    .sec4{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        width: 100%;
+        height: 800px;
+    }
+    
+    .sec4 img{
+        margin-left: 70px;
+        margin-top: 150px;
+        width: 80px;
+        height: auto;
+    }
+    
+    .titulo-sobre{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 750px;
+        line-height: 28px;
+    }
+    
+    .titulo2-sobre{
+        margin-left: 220px;
+        margin-top: 50px;
+        color: rgb(234, 136, 0);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto2-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 750px;
+        line-height: 28px;
+    }
+    
+    .imagem-personalizacao img{
+        width: 100px;
+        height: auto;
+        z-index: 40;
+        margin-left: 50px;
+        margin-top: -120px;
+    }
+    
+    .icon-interface img{
+        width: 160px;
+        height: auto;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    
+    
+    
+                /* SEÇÂO 5 CONTATO  */
+    
+    
+    .sec5{
+                    background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    color: aliceblue;
+                    width: 100%;
+                    height: 800px;
+    }
+                
+    .sec5 img{
+                    width: 80px;
+                    margin-top: 90px;
+                    margin-left: 200px;
+    }
+                
+    .titulo-contato{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2-contato{
+        margin-left: 200px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo2-contato-email{
+        margin-left: 465px;
+        margin-top: 250px;
+        color: rgb(234, 136, 0);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .email{
+        margin-left: 260px;
+        margin-top: -310px;
+        width: 110px;
+    }
+    
+    .texto3-email{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 390px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+   
+
+
+    .insta{
+        margin-left: 500px;
+        margin-top: -325px;
+    }
+    
+    
+    .titulo2-contato-insta{
+        margin-left: 680px;
+        margin-top: 250px;
+        color: rgb(234, 136, 0);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto3-insta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 680px;
+        text-align: justify;
+        width: 10px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+    
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: large;
+        margin-top: 20px;
+        margin-left: 160px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+     
+    
+    
+    
+            /* RODAPÉ  */
+    
+    
+    footer{
+        width: 100%;
+        height: 150px;
+        background-color: #e46e00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .rodape{
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+  }
+
+
+
+
+
+
+  
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+@media only screen and (max-width: 935px){
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 3340px;
+       
+        
+    }
+    
+    
+                /* MENU */
+    
+    .menu{
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 90px;
+        
+    
+    }
+    
+    
+    
+    img{
+        
+        margin-left: 50px;
+        margin-top: -40px;
+        width: 170px;
+        height: auto;
+        position: absolute;
+    }
+    
+    
+    li{ font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        width: 100px;
+        font-size: small;
+        list-style-type: none;
+        
+        
+    }
+    
+    a{  color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+            /* SEÇÂO 1  INICIO */
+    
+    .sec{
+        
+        background-image: url(../IMG/treino.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 730px;
+        line-height: 30px;
+    }
+    
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 800px;
+        line-height: 30px;
+    
+    }
+    
+    .gradiente {
+        font-weight: bold;
+        background:linear-gradient(#ea8800, red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .mini-txt-inicio{
+        font-size: medium;
+    }
+    
+    
+                /* SEÇÂO 2  SERVIÇOS*/
+    .sec2{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(22, 22, 22);
+     color: aliceblue;
+                   
+    }
+    
+    .titulo-servicos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-servicos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 17px;
+        margin-top: 50px;
+        margin-left: 340px;
+        text-align: justify;
+        width: 500px;
+        line-height: 25px;
+    }
+    
+    .sec2 img{
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: -0px;
+        height: auto;
+        z-index: 10;
+        
+    }
+    
+    .ico{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 330px;
+        margin-top: 40px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico2{ 
+        width: 150px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 500px;
+        margin-top: -120px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico3{ 
+        width: 150px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 650px;
+        margin-top: -120px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico img{
+        width: 250px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .ico2 img{
+        width: 300px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: -95px;
+    }
+    
+    .ico3 img{
+        width: 70px;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    
+    .texto-servicos-pequeno{
+        margin-top: 50px;
+        width: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        font-weight: lighter;
+        align-self: flex-end;
+        margin-left:330px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+                 /* SEÇÂO 3 CUSTOS */
+    
+    .sec3{
+        height: 650px;
+    }
+    
+    .sec3 img{
+        z-index: 12;
+        width: 900px;
+        height: auto;
+        margin-left: 800px;
+        margin-top: -300px;
+    }
+    
+    .titulo-custos{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2{
+        margin-left: 170px;
+        margin-top: 90px;
+        color: rgb(234, 136, 0);
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto-custos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 17px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 700px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    
+    
+    
+    
+                /* SEÇÂO 4 SOBRE */
+    
+    .sec4{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        width: 100%;
+        height: 660px;
+    }
+    
+    .sec4 img{
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 70px;
+        height: auto;
+    }
+    
+    .titulo-sobre{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 150px;
+        text-align: justify;
+        width: 700px;
+        line-height: 25px;
+    }
+    
+    .titulo2-sobre{
+        margin-left: 0px;
+        margin-top: 20px;
+        color: rgb(234, 136, 0);
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto2-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 150px;
+        text-align: justify;
+        width: 700px;
+        line-height: 28px;
+    }
+    
+    .imagem-personalizacao img{
+        width: 75px;
+        height: auto;
+        z-index: 40;
+        margin-left: 45px;
+        margin-top: -120px;
+    }
+    
+    .icon-interface img{
+        width: 110px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    
+    
+    
+                /* SEÇÂO 5 CONTATO  */
+    
+    
+    .sec5{
+                    background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    color: aliceblue;
+                    width: 100%;
+                    height: 620px;
+    }
+                
+    .sec5 img{
+                    width: 80px;
+                    margin-top: 90px;
+                    margin-left: 200px;
+    }
+                
+    .titulo-contato{
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2-contato{
+        margin-left: 200px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo2-contato-email{
+        margin-left: 440px;
+        margin-top: 250px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .email{
+        margin-left: 230px;
+        margin-top: -310px;
+        width: 110px;
+    }
+    
+    .texto3-email{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px ;
+        margin-top: 20px;
+        margin-left: 370px;
+        text-align: justify;
+        width: 200px;
+        line-height: 20px;
+        color: aliceblue;
+    }
+    
+    
+   
+
+
+    .insta{
+        margin-left: 480px;
+        margin-top: -315px;
+    }
+    
+    
+    .titulo2-contato-insta{
+        margin-left: 670px;
+        margin-top: 250px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto3-insta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 660px;
+        text-align: justify;
+        width: 10px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+    
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 160px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+     
+    
+    
+    
+            /* RODAPÉ  */
+    
+    
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: #e46e00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .rodape{
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        
+    }
+
+}
+
+
+
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media only screen and (max-width: 860px){
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 3220px;
+       
+    }
+    
+    
+                /* MENU */
+    
+    .menu{
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 90px;
+        
+    
+    }
+    
+    img{
+        
+        margin-left: 50px;
+        margin-top: -40px;
+        width: 170px;
+        height: auto;
+        position: absolute;
+    }
+    
+    
+    li{ font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        width: 100px;
+        font-size: small;
+        list-style-type: none;
+        
+        
+    }
+    
+    a{  color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+            /* SEÇÂO 1  INICIO */
+    
+    .sec{
+        
+        background-image: url(../IMG/treino.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 650px;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 670px;
+        line-height: 30px;
+    }
+    
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 700px;
+        line-height: 30px;
+    
+    }
+    
+    .gradiente {
+        font-weight: bold;
+        background:linear-gradient(#ea8800, red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .mini-txt-inicio{
+        font-size: 15px;
+    }
+    
+    
+                /* SEÇÂO 2  SERVIÇOS*/
+    .sec2{
+    width: 100%;
+    height: 610px;
+    background-color: rgb(22, 22, 22);
+     color: aliceblue;
+                   
+    }
+    
+    .titulo-servicos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-servicos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 16px;
+        margin-top: 50px;
+        margin-left: 280px;
+        text-align: justify;
+        width: 470px;
+        line-height: 25px;
+    }
+    
+    .sec2 img{
+        width: 180px;
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-right: -0px;
+        height: auto;
+        z-index: 10;
+        
+    }
+    
+    .ico{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 270px;
+        margin-top: 40px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico2{ 
+        width: 150px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 430px;
+        margin-top: -120px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico3{ 
+        width: 150px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 570px;
+        margin-top: -120px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico img{
+        width: 230px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .ico2 img{
+        width: 280px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: -95px;
+    }
+    
+    .ico3 img{
+        width: 60px;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    
+    .texto-servicos-pequeno{
+        margin-top: 50px;
+        width: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: lighter;
+        align-self: flex-end;
+        margin-left:250px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+                 /* SEÇÂO 3 CUSTOS */
+    
+    .sec3{
+        height: 570px;
+    }
+    
+    .sec3 img{
+        z-index: 12;
+        width: 900px;
+        height: auto;
+        margin-left: 800px;
+        margin-top: -300px;
+    }
+    
+    .titulo-custos{
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2{
+        margin-left: 170px;
+        margin-top: 90px;
+        color: rgb(234, 136, 0);
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto-custos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 650px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    
+    
+    
+    
+                /* SEÇÂO 4 SOBRE */
+    
+    .sec4{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        width: 100%;
+        height: 660px;
+    }
+    
+    .sec4 img{
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 70px;
+        height: auto;
+    }
+    
+    .titulo-sobre{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 150px;
+        text-align: justify;
+        width: 600px;
+        line-height: 25px;
+    }
+    
+    .titulo2-sobre{
+        margin-left: 0px;
+        margin-top: 15px;
+        color: rgb(234, 136, 0);
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto2-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 150px;
+        text-align: justify;
+        width: 600px;
+        line-height: 28px;
+    }
+    
+    .imagem-personalizacao img{
+        width: 75px;
+        height: auto;
+        z-index: 40;
+        margin-left: 45px;
+        margin-top: -120px;
+    }
+    
+    .icon-interface img{
+        width: 110px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    
+    
+    
+                /* SEÇÂO 5 CONTATO  */
+    
+    
+    .sec5{
+                    background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    color: aliceblue;
+                    width: 100%;
+                    height: 620px;
+    }
+                
+    .sec5 img{      
+                    width: 80px;
+                    margin-top: 90px;
+                    margin-left: 160px;
+    }
+                
+    .titulo-contato{
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2-contato{
+        margin-left: 160px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo2-contato-email{
+        margin-left: 405px;
+        margin-top: 250px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .email{
+        margin-left: 235px;
+        margin-top: -310px;
+        width: 110px;
+    }
+    
+    .texto3-email{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px ;
+        margin-top: 20px;
+        margin-left: 340px;
+        text-align: justify;
+        width: 200px;
+        line-height: 20px;
+        color: aliceblue;
+    }
+    
+
+    .insta{
+        margin-left: 480px;
+        margin-top: -315px;
+    }
+    
+    
+    .titulo2-contato-insta{
+        margin-left: 635px;
+        margin-top: 250px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto3-insta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 625px;
+        text-align: justify;
+        width: 10px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+    
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 130px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+     
+    
+    
+    
+            /* RODAPÉ  */
+    
+    
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: #e46e00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    .rodape{
+        color: black;
+        font-weight: bold;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+
+
+
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+  /*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 790px) { 
+
+
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 3080px;
+       
+    }
+    
+    
+                /* MENU */
+    
+    .menu{
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 90px;
+        
+    
+    }
+    
+    img{
+        
+        margin-left: 50px;
+        margin-top: -40px;
+        width: 170px;
+        height: auto;
+        position: absolute;
+    }
+    
+    
+    li{ font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        width: 100px;
+        font-size: small;
+        list-style-type: none;
+        
+        
+    }
+    
+    a{  color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+            /* SEÇÂO 1  INICIO */
+    
+    .sec{
+        
+        background-image: url(../IMG/treino.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 630px;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 600px;
+        line-height: 30px;
+    }
+    
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 700px;
+        line-height: 30px;
+    
+    }
+    
+    .gradiente {
+        font-weight: bold;
+        background:linear-gradient(#ea8800, red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .mini-txt-inicio{
+        font-size: 14px;
+    }
+    
+    
+                /* SEÇÂO 2  SERVIÇOS*/
+    .sec2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(22, 22, 22);
+     color: aliceblue;
+                   
+    }
+    
+    .titulo-servicos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-servicos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 16px;
+        margin-top: 50px;
+        margin-left: 260px;
+        text-align: justify;
+        width: 420px;
+        line-height: 25px;
+    }
+    
+    .sec2 img{
+        width: 160px;
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-right: 0 px;
+        height: auto;
+        z-index: 10;
+        
+    }
+    
+    .ico{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 240px;
+        margin-top: 40px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico2{ 
+        width: 150px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 400px;
+        margin-top: -120px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico3{ 
+        width: 150px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 540px;
+        margin-top: -120px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico img{
+        width: 230px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .ico2 img{
+        width: 280px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: -95px;
+    }
+    
+    .ico3 img{
+        width: 60px;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    
+    .texto-servicos-pequeno{
+        margin-top: 50px;
+        width: 470px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: lighter;
+        align-self: flex-end;
+        margin-left:250px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+                 /* SEÇÂO 3 CUSTOS */
+    
+    .sec3{
+        height: 500px;
+    }
+    
+    .sec3 img{
+        z-index: 12;
+        width: 900px;
+        height: auto;
+        margin-left: 800px;
+        margin-top: -300px;
+    }
+    
+    .titulo-custos{
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2{
+        margin-left: 150px;
+        margin-top: 50px;
+        color: rgb(234, 136, 0);
+        font-size: 19px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto-custos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 580px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    
+    
+    
+    
+                /* SEÇÂO 4 SOBRE */
+    
+    .sec4{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        width: 100%;
+        height: 660px;
+    }
+    
+    .sec4 img{
+        margin-left: 40px;
+        margin-top: 150px;
+        width: 60px;
+        height: auto;
+    }
+    
+    .titulo-sobre{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 130px;
+        text-align: justify;
+        width: 570px;
+        line-height: 25px;
+    }
+    
+    .titulo2-sobre{
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: s10px;
+        color: rgb(234, 136, 0);
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto2-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 130px;
+        text-align: justify;
+        width: 570px;
+        line-height: 28px;
+    }
+    
+    .imagem-personalizacao img{
+        width: 65px;
+        height: auto;
+        z-index: 40;
+        margin-left: 35px;
+        margin-top: -120px;
+    }
+    
+    .icon-interface img{
+        width: 95px;
+        height: auto;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    
+    
+    
+                /* SEÇÂO 5 CONTATO  */
+    
+    
+    .sec5{
+                    background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    color: aliceblue;
+                    width: 100%;
+                    height: 580px;
+    }
+                
+    .sec5 img{      
+                    width: 80px;
+                    margin-top: 90px;
+                    margin-left: 160px;
+    }
+                
+    .titulo-contato{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2-contato{
+        margin-left: 160px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo2-contato-email{
+        margin-left: 380px;
+        margin-top: 245px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .email{
+        margin-left: 205px;
+        margin-top: -300px;
+        margin-bottom: -100PX;
+        width: 110px;
+    }
+    
+    .texto3-email{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px ;
+        margin-top: 20px;
+        margin-left: 310px;
+        text-align: justify;
+        width: 200px;
+        line-height: 20px;
+        color: aliceblue;
+    }
+    
+
+    .insta{
+        margin-left: 430px;
+        margin-top: -309px;
+    }
+    
+    
+    .titulo2-contato-insta{
+        margin-left: 590px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto3-insta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 575px;
+        text-align: justify;
+        width: 10px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+    
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 130px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+     
+    
+    
+    
+            /* RODAPÉ  */
+    
+    
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: #e46e00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    .rodape{
+        color: black;
+        font-weight: bold;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        
+    }
+   }
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media only screen and (max-width: 720px) { 
+
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 3000px;
+       
+    }
+    
+    
+                /* MENU */
+    
+    .menu{
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 80px;
+        
+    
+    }
+    
+    img{
+        
+        margin-left: 50px;
+        margin-top: -40px;
+        width: 170px;
+        height: auto;
+        position: absolute;
+    }
+    
+    
+    li{ font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        width: 100px;
+        font-size: smaller;
+        list-style-type: none;
+        
+        
+    }
+    
+    a{  color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+            /* SEÇÂO 1  INICIO */
+    
+    .sec{
+        
+        background-image: url(../IMG/treino.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 630px;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 13,5px;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 500px;
+        line-height: 30px;
+    }
+    
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 700px;
+        line-height: 30px;
+    
+    }
+    
+    .gradiente {
+        font-weight: bold;
+        background:linear-gradient(#ea8800, red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .mini-txt-inicio{
+        font-size: 14px;
+    }
+    
+    
+                /* SEÇÂO 2  SERVIÇOS*/
+    .sec2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(22, 22, 22);
+     color: aliceblue;
+                   
+    }
+    
+    .titulo-servicos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-servicos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-left: 230px;
+        text-align: justify;
+        width: 400px;
+        line-height: 25px;
+    }
+    
+    .sec2 img{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 0 px;
+        height: auto;
+        z-index: 10;
+        
+    }
+    
+    .ico{ 
+        width: 110px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 240px;
+        margin-top: 40px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico2{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 365px;
+        margin-top: -120px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico3{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 480px;
+        margin-top: -120px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico img{
+        width: 230px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .ico2 img{
+        width: 280px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: -95px;
+    }
+    
+    .ico3 img{
+        width: 60px;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    
+    .texto-servicos-pequeno{
+        margin-top: 50px;
+        width: 400px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: lighter;
+        align-self: flex-end;
+        margin-left:250px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+                 /* SEÇÂO 3 CUSTOS */
+    
+    .sec3{
+        height: 480px;
+    }
+    
+    .sec3 img{
+        z-index: 12;
+        width: 900px;
+        height: auto;
+        margin-left: 800px;
+        margin-top: -300px;
+    }
+    
+    .titulo-custos{
+        margin-top: 130px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2{
+        margin-left: 130px;
+        margin-top: 50px;
+        color: rgb(234, 136, 0);
+        font-size: 17px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto-custos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 530px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    
+    
+    
+    
+    
+                /* SEÇÂO 4 SOBRE */
+    
+    .sec4{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        width: 100%;
+        height: 660px;
+    }
+    
+    .sec4 img{
+        margin-left: 410px;
+        margin-top: 30px;
+        width: 45px;
+        height: auto;
+    }
+    
+    .titulo-sobre{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 70px;
+        text-align: justify;
+        width: 580px;
+        line-height: 23px;
+        height: 150px;
+    }
+    
+    .titulo2-sobre{
+        margin-left: -280px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        color: rgb(234, 136, 0);
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto2-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 80px;
+        text-align: justify;
+        width: 570px;
+        line-height: 28px;
+    }
+    
+    .imagem-personalizacao img{
+        width: 45px;
+        height: auto;
+        z-index: 40;
+        margin-left: 45px;
+        margin-top: -165px;
+    }
+    
+    .icon-interface img{
+        width: 70px;
+        height: auto;
+        margin-left: 65px;
+        margin-top: -50px;
+    }
+    
+    
+    
+                /* SEÇÂO 5 CONTATO  */
+    
+    
+    .sec5{
+                    background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    color: aliceblue;
+                    width: 100%;
+                    height: 580px;
+    }
+                
+    .sec5 img{      
+                    width: 80px;
+                    margin-top: 90px;
+                    margin-left: 115px;
+    }
+                
+    .titulo-contato{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2-contato{
+        margin-left: 115px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo2-contato-email{
+        margin-left: 332px;
+        margin-top: 245px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .email{
+        margin-left: 205px;
+        margin-top: -300px;
+        margin-bottom: -100PX;
+        width: 110px;
+    }
+    
+    .texto3-email{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px ;
+        margin-top: 20px;
+        margin-left: 270px;
+        text-align: justify;
+        width: 200px;
+        line-height: 20px;
+        color: aliceblue;
+    }
+    
+
+    .insta{
+        margin-left: 410px;
+        margin-top: -309px;
+    }
+    
+    
+    .titulo2-contato-insta{
+        margin-left: 525px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto3-insta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 510px;
+        text-align: justify;
+        width: 30px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+    
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 80px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+     
+    
+    
+    
+            /* RODAPÉ  */
+    
+    
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: #e46e00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    .rodape{
+        color: black;
+        font-weight: bold;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 690px){
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 3000px;
+       
+    }
+    
+    
+                /* MENU */
+    
+    .menu{
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 70px;
+        
+    
+    }
+    
+    img{
+        
+        margin-left: 50px;
+        margin-top: -40px;
+        width: 150px;
+        height: auto;
+        position: absolute;
+    }
+    
+    
+    li{ font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        width: 80px;
+        font-size: smaller;
+        list-style-type: none;
+        
+        
+    }
+    
+    a{  color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+            /* SEÇÂO 1  INICIO */
+    
+    .sec{
+        
+        background-image: url(../IMG/treino.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 630px;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 13,5px;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 500px;
+        line-height: 30px;
+    }
+    
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 700px;
+        line-height: 30px;
+    
+    }
+    
+    .gradiente {
+        font-weight: bold;
+        background:linear-gradient(#ea8800, red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .mini-txt-inicio{
+        font-size: 14px;
+    }
+    
+    
+                /* SEÇÂO 2  SERVIÇOS*/
+    .sec2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(22, 22, 22);
+     color: aliceblue;
+                   
+    }
+    
+    .titulo-servicos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-servicos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-left: 230px;
+        text-align: justify;
+        width: 400px;
+        line-height: 25px;
+    }
+    
+    .sec2 img{
+        width: 150px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 0 px;
+        height: auto;
+        z-index: 10;
+        
+    }
+    
+    .ico{ 
+        width: 110px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 240px;
+        margin-top: 40px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico2{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 365px;
+        margin-top: -120px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico3{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 480px;
+        margin-top: -120px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico img{
+        width: 230px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .ico2 img{
+        width: 280px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: -95px;
+    }
+    
+    .ico3 img{
+        width: 60px;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    
+    .texto-servicos-pequeno{
+        margin-top: 50px;
+        width: 400px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: lighter;
+        align-self: flex-end;
+        margin-left:250px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+                 /* SEÇÂO 3 CUSTOS */
+    
+    .sec3{
+        height: 480px;
+    }
+    
+    .sec3 img{
+        z-index: 12;
+        width: 900px;
+        height: auto;
+        margin-left: 800px;
+        margin-top: -300px;
+    }
+    
+    .titulo-custos{
+        margin-top: 130px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2{
+        margin-left: 130px;
+        margin-top: 50px;
+        color: rgb(234, 136, 0);
+        font-size: 17px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto-custos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 500px;
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 80px;
+    }
+    
+    
+    
+    
+    
+                /* SEÇÂO 4 SOBRE */
+    
+    .sec4{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        width: 100%;
+        height: 660px;
+    }
+    
+    .sec4 img{
+        margin-left: 400px;
+        margin-top: 30px;
+        width: 45px;
+        height: auto;
+    }
+    
+    .titulo-sobre{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 50px;
+        text-align: justify;
+        width: 550px;
+        line-height: 23px;
+        height: 150px;
+    }
+    
+    .titulo2-sobre{
+        margin-left: -280px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        color: rgb(234, 136, 0);
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto2-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 50px;
+        text-align: justify;
+        width: 540px;
+        line-height: 28px;
+    }
+    
+    .imagem-personalizacao img{
+        width: 40px;
+        height: auto;
+        z-index: 40;
+        margin-left: 345px;
+        margin-top: -185px;
+    }
+    
+    .icon-interface img{
+        width: 70px;
+        height: auto;
+        margin-left: 300px;
+        margin-top: -45px;
+    }
+    
+    
+    
+                /* SEÇÂO 5 CONTATO  */
+    
+    
+    .sec5{
+                    background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    color: aliceblue;
+                    width: 100%;
+                    height: 580px;
+    }
+                
+    .sec5 img{      
+                    width: 80px;
+                    margin-top: 60px;
+                    margin-left: 90px;
+    }
+                
+    .titulo-contato{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2-contato{
+        margin-left: 90px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo2-contato-email{
+        margin-left: 315px;
+        margin-top: 245px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .email{
+        margin-left: 215px;
+        margin-top: -300px;
+        margin-bottom: -100PX;
+        width: 110px;
+    }
+    
+    .texto3-email{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px ;
+        margin-top: 20px;
+        margin-left: 250px;
+        text-align: justify;
+        width: 200px;
+        line-height: 20px;
+        color: aliceblue;
+    }
+    
+
+    .insta{
+        margin-left: 410px;
+        margin-top: -309px;
+    }
+    
+    
+    .titulo2-contato-insta{
+        margin-left: 495px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto3-insta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 490px;
+        text-align: justify;
+        width: 30px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+    
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 60px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+     
+    
+    
+    
+            /* RODAPÉ  */
+    
+    
+    footer{
+        width: 100%;
+        height: 70px;
+        background-color: #e46e00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    .rodape{
+        color: black;
+        font-weight: bold;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media only screen and (max-width:620px){
+
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 3000px;
+       
+    }
+    
+    
+                /* MENU */
+    
+    .menu{
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 70px;
+        
+    
+    }
+    
+    img{
+        
+        margin-left: 50px;
+        margin-top: -40px;
+        width: 150px;
+        height: auto;
+        position: absolute;
+    }
+    
+    
+    li{ font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        width: 80px;
+        font-size: smaller;
+        list-style-type: none;
+        
+        
+    }
+    
+    a{  color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+            /* SEÇÂO 1  INICIO */
+    
+    .sec{
+        
+        background-image: url(../IMG/treino.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 630px;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 400px;
+        line-height: 30px;
+    }
+    
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 700px;
+        line-height: 30px;
+    
+    }
+    
+    .gradiente {
+        font-weight: bold;
+        background:linear-gradient(#ea8800, red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .mini-txt-inicio{
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    
+    
+                /* SEÇÂO 2  SERVIÇOS*/
+    .sec2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(22, 22, 22);
+     color: aliceblue;
+                   
+    }
+    
+    .titulo-servicos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-servicos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 13px;
+        margin-top: 50px;
+        margin-left: 50px;
+        text-align: justify;
+        width: 300px;
+        line-height: 25px;
+    }
+    
+    .sec2 img{
+        width: 120px;
+        margin-top: 20px;
+        margin-left: 410px;
+        margin-right: 0 px;
+        height: auto;
+        z-index: 10;
+        
+    }
+    
+    .ico{ 
+        width: 110px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 40px;
+        margin-top: 40px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico2{ 
+        width: 100px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 160px;
+        margin-top: -120px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico3{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 270px;
+        margin-top: -120px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico img{
+        width: 230px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .ico2 img{
+        width: 280px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: -100px;
+    }
+    
+    .ico3 img{
+        width: 60px;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    
+    
+    .texto-servicos-pequeno{
+        margin-top: 50px;
+        width: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: lighter;
+        align-self: flex-end;
+        margin-left: 120px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+                 /* SEÇÂO 3 CUSTOS */
+    
+    .sec3{
+        height: 480px;
+    }
+    
+    .sec3 img{
+        z-index: 12;
+        width: 900px;
+        height: auto;
+        margin-left: 800px;
+        margin-top: -300px;
+    }
+    
+    .titulo-custos{
+        margin-top: 130px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2{
+        margin-left: 90px;
+        margin-top: 50px;
+        color: rgb(234, 136, 0);
+        font-size: 17px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto-custos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 13px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 400px;
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 80px;
+    }
+    
+    
+    
+    
+    
+                /* SEÇÂO 4 SOBRE */
+    
+    .sec4{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        width: 100%;
+        height: 660px;
+    }
+    
+    .sec4 img{
+        margin-left: 360px;
+        margin-top: 35px;
+        width: 35px;
+        height: auto;
+    }
+    
+    .titulo-sobre{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 80px;
+        text-align: justify;
+        width: 450px;
+        line-height: 20px;
+        height: 150px;
+    }
+    
+    .titulo2-sobre{
+        margin-left: -280px;
+        margin-top: 35px;
+        margin-bottom: 0px;
+        color: rgb(234, 136, 0);
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto2-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 70px;
+        text-align: justify;
+        width: 450px;
+        line-height: 23px;
+    }
+    
+    .imagem-personalizacao img{
+        width: 40px;
+        height: auto;
+        z-index: 40;
+        margin-left: 290px;
+        margin-top: -160px;
+    }
+    
+    .icon-interface img{
+        width: 70px;
+        height: auto;
+        margin-left: 260px;
+        margin-top: -45px;
+    }
+    
+    
+    
+                /* SEÇÂO 5 CONTATO  */
+    
+    
+    .sec5{
+                    background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    color: aliceblue;
+                    width: 100%;
+                    height: 580px;
+    }
+                
+    .sec5 img{      
+                    width: 60px;
+                    margin-top: 60px;
+                    margin-left: 110px;
+    }
+                
+    .titulo-contato{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2-contato{
+        margin-left: 100px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: medium;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo2-contato-email{
+        margin-left: 285px;
+        margin-top: 245px;
+        color: rgb(234, 136, 0);
+        font-size: medium;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .email{
+        margin-left: 175px;
+        margin-top: -300px;
+        margin-bottom: -100PX;
+        width: 110px;
+    }
+    
+    .texto3-email{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px ;
+        margin-top: 20px;
+        margin-left: 220px;
+        text-align: justify;
+        width: 200px;
+        line-height: 20px;
+        color: aliceblue;
+    }
+    
+
+    .insta{
+        margin-left: 350px;
+        margin-top: -309px;
+    }
+    
+    
+    .titulo2-contato-insta{
+        margin-left: 455px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: medium;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto3-insta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 440px;
+        text-align: justify;
+        width: 30px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+    
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 60px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+     
+    
+    
+    
+            /* RODAPÉ  */
+    
+    
+    footer{
+        width: 100%;
+        height: 70px;
+        background-color: #e46e00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    .rodape{
+        color: black;
+        font-weight: bold;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        
+    } 
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media only screen and (max-width: 576px) { 
+    html{
+        scroll-behavior: smooth;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 3000px;
+       
+    }
+    
+    
+                /* MENU */
+    
+    .menu{
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 100% ;
+        height: 70px;
+        
+    
+    }
+    
+    img{
+        
+        margin-left: 50px;
+        margin-top: -40px;
+        width: 150px;
+        height: auto;
+        position: absolute;
+    }
+    
+    
+    li{ font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        width: 80px;
+        font-size: smaller;
+        list-style-type: none;
+        
+        
+    }
+    
+    a{  color: white;
+        text-decoration: none;
+    }
+    
+    
+    
+            /* SEÇÂO 1  INICIO */
+    
+    .sec{
+        
+        background-image: url(../IMG/treino.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 630px;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-home{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 100px;
+        text-align: justify;
+        width: 400px;
+        line-height: 30px;
+    }
+    
+    .texto{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: medium;
+        margin-top: 20px;
+        margin-left: 180px;
+        text-align: justify;
+        width: 700px;
+        line-height: 30px;
+    
+    }
+    
+    .gradiente {
+        font-weight: bold;
+        background:linear-gradient(#ea8800, red);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .mini-txt-inicio{
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    
+    
+                /* SEÇÂO 2  SERVIÇOS*/
+    .sec2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(22, 22, 22);
+     color: aliceblue;
+                   
+    }
+    
+    .titulo-servicos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-servicos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 13px;
+        margin-top: 50px;
+        margin-left: 50px;
+        text-align: justify;
+        width: 300px;
+        line-height: 25px;
+    }
+    
+    .sec2 img{
+        width: 120px;
+        margin-top: 20px;
+        margin-left: 410px;
+        margin-right: 0 px;
+        height: auto;
+        z-index: 10;
+        
+    }
+    
+    .ico{ 
+        width: 110px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 40px;
+        margin-top: 40px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico2{ 
+        width: 100px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 160px;
+        margin-top: -120px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico3{ 
+        width: 130px;
+        height: 120px;
+        align-self: flex-end;
+        display: flex;
+        z-index: 11;
+        margin-left: 270px;
+        margin-top: -120px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ico img{
+        width: 230px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .ico2 img{
+        width: 280px;
+        height: auto;
+        margin-top: -10px;
+        margin-left: -100px;
+    }
+    
+    .ico3 img{
+        width: 60px;
+        height: auto;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    
+    
+    .texto-servicos-pequeno{
+        margin-top: 50px;
+        width: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: lighter;
+        align-self: flex-end;
+        margin-left: 120px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+                 /* SEÇÂO 3 CUSTOS */
+    
+    .sec3{
+        height: 480px;
+    }
+    
+    .sec3 img{
+        z-index: 12;
+        width: 900px;
+        height: auto;
+        margin-left: 800px;
+        margin-top: -300px;
+    }
+    
+    .titulo-custos{
+        margin-top: 130px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2{
+        margin-left: 90px;
+        margin-top: 50px;
+        color: rgb(234, 136, 0);
+        font-size: 17px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto-custos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 13px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        width: 400px;
+        line-height: 30px;
+        text-align: justify;
+        margin-left: 80px;
+    }
+    
+    
+    
+    
+    
+                /* SEÇÂO 4 SOBRE */
+    
+    .sec4{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        width: 100%;
+        height: 660px;
+    }
+    
+    .sec4 img{
+        margin-left: 360px;
+        margin-top: 35px;
+        width: 35px;
+        height: auto;
+    }
+    
+    .titulo-sobre{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .texto-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 80px;
+        text-align: justify;
+        width: 450px;
+        line-height: 20px;
+        height: 150px;
+    }
+    
+    .titulo2-sobre{
+        margin-left: -280px;
+        margin-top: 35px;
+        margin-bottom: 0px;
+        color: rgb(234, 136, 0);
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto2-sobre{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 70px;
+        text-align: justify;
+        width: 450px;
+        line-height: 23px;
+    }
+    
+    .imagem-personalizacao img{
+        width: 40px;
+        height: auto;
+        z-index: 40;
+        margin-left: 290px;
+        margin-top: -160px;
+    }
+    
+    .icon-interface img{
+        width: 70px;
+        height: auto;
+        margin-left: 260px;
+        margin-top: -45px;
+    }
+    
+    
+    
+                /* SEÇÂO 5 CONTATO  */
+    
+    
+    .sec5{
+                    background-image: url(../IMG/2592a989-3a22-473f-b01d-35abd0988dfb.jpg);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    color: aliceblue;
+                    width: 100%;
+                    height: 580px;
+    }
+                
+    .sec5 img{      
+                    width: 60px;
+                    margin-top: 60px;
+                    margin-left: 110px;
+    }
+                
+    .titulo-contato{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration:underline;
+        font-weight: bolder;
+        background:linear-gradient(#ea8800, rgb(255, 38, 0));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .titulo2-contato{
+        margin-left: 100px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: medium;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .titulo2-contato-email{
+        margin-left: 285px;
+        margin-top: 245px;
+        color: rgb(234, 136, 0);
+        font-size: medium;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .email{
+        margin-left: 175px;
+        margin-top: -300px;
+        margin-bottom: -100PX;
+        width: 110px;
+    }
+    
+    .texto3-email{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px ;
+        margin-top: 20px;
+        margin-left: 220px;
+        text-align: justify;
+        width: 200px;
+        line-height: 20px;
+        color: aliceblue;
+    }
+    
+
+    .insta{
+        margin-left: 350px;
+        margin-top: -309px;
+    }
+    
+    
+    .titulo2-contato-insta{
+        margin-left: 455px;
+        margin-top: 230px;
+        color: rgb(234, 136, 0);
+        font-size: medium;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .texto3-insta{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 440px;
+        text-align: justify;
+        width: 30px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+    
+    .texto3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 60px;
+        text-align: justify;
+        width: 200px;
+        line-height: 30px;
+        color: aliceblue;
+    }
+    
+    
+            /* RODAPÉ  */
+    
+    
+    footer{
+        width: 100%;
+        height: 70px;
+        background-color: #e46e00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    .rodape{
+        color: black;
+        font-weight: bold;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 30;
+        display: flex;
+        align-items: center;
+        
+    }  
+}
